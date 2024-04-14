@@ -2,6 +2,7 @@ use draw::*;
 
 const SCREEN_SIZE: (u32, u32) = (5050, 5050);
 
+// change these function to change functions graphed
 fn f1(x:f32, y: f32) -> f32 {(  y - 20.0*(5.0*x/20.0).sin()  ) as f32}
 fn f2(x:f32, y: f32) -> f32 {(  y - (x*x) - 5.0*x  ) as f32}
  
